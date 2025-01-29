@@ -1,0 +1,7 @@
+class Solution(object):
+    def plusOne(self, digits):
+        digits = int("".join(map(str, digits)))  
+        b=digits+1
+        c = [int(digit) for digit in str(b)]
+        return c
+    
