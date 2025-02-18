@@ -1,0 +1,6 @@
+a = str(input("enter a number"))
+b=[]
+for index,value in enumerate(a):
+    if int(value) % 2==1:
+        b.append(index)
+print(a[0:b[-1]+1])
